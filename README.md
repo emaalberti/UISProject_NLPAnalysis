@@ -32,7 +32,7 @@ It is intended as a reproducible framework that can be adapted to similar resear
   - Sentiment distribution analysis.  
   - Visualization of semantic structures.
  
-  ### 3. Data Preprocessing
+### 3. Data Preprocessing
 - **Notebook:** `DataManipulation.ipynb`
 - Grouping and counting of most relevant words
 - Final Visualization of results to add to the paper
