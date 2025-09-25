@@ -1,7 +1,5 @@
 # UISProject_NLPAnalysis
 
-# Reddit Semantic Analysis – A Case Study on Public Discourse
-
 ## Abstract
 This repository contains the implementation of a Natural Language Processing (NLP) pipeline developed to investigate public discourse on Reddit.  
 The project focuses on collecting, preprocessing, and analyzing large-scale textual data to extract semantic patterns and community narratives.  
