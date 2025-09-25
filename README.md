@@ -18,25 +18,25 @@ It is intended as a reproducible framework that can be adapted to similar resear
 
 ### 1. Data Collection
 - **Notebook:** `RedditScraper.ipynb`  
-- Reddit posts and comments were collected using the [PRAW API](https://praw.readthedocs.io/).  
-- Data was filtered to target specific keywords and subreddits of interest.  
+- Reddit scraping of most relevant subreddits about GLP-1
 
-### 2. Data Preprocessing
-- **Notebook:** `DataManipulation.ipynb`  
+### 2. Semantic Analysis
+- **Notebook:** `SemanticAnalysis.ipynb`
 - Steps included:
   - Removal of duplicates and noise.  
   - Normalization (tokenization, lowercasing, punctuation removal).  
-  - Handling of missing values.  
-
-### 3. Semantic Analysis
-- **Notebook:** `SemanticAnalysis.ipynb`  
-- Employed NLP libraries such as **spaCy, NLTK, TextBlob** and **scikit-learn**.  
-- Techniques applied:
-  - Vectorization (TF-IDF, embeddings).  
+  - Handling of missing values.
+- Used BERTopic Framework for:
+  - Vectorization 
   - Clustering and topic modeling.  
   - Sentiment distribution analysis.  
-  - Visualization of semantic structures.  
-
+  - Visualization of semantic structures.
+ 
+  ### 3. Data Preprocessing
+- **Notebook:** `DataManipulation.ipynb`
+- Grouping and counting of most relevant words
+- Final Visualization of results to add to the paper
+  
 ---
 
 ## Results (Summary)
