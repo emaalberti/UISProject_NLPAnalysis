@@ -15,11 +15,8 @@ Output:
 A dataset with +400k samples, each sample composed of:
 
 text
-
 date
-
 tag
-
 number of comments below
 
 You can find the notebook for this part in this directory:
@@ -36,13 +33,10 @@ For this part I implemented an already existing model called Bertopic, here’s 
 BERTopic is a topic modeling framework for Python that utilizes transformer-based embeddings and class-based TF-IDF (c-TF-IDF) to generate interpretable topic clusters from text data.
 BERTopic offers modularity in its workflow, allowing users to customize each step:
 
-embedding
-
-dimensionality reduction
-
-clustering
-
-topic representation
+- embedding
+- dimensionality reduction
+- clustering
+- topic representation
 to suit diverse analytical requirements.
 
 I have selected each step after tuning and validating, using appropriate quantitative metrics relevant to its stage. For embedding and dimensionality reduction, intrinsic metrics such as clustering quality (e.g., silhouette score).
